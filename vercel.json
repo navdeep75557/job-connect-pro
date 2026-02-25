@@ -3,19 +3,3 @@
     { "source": "/(.*)", "destination": "/index.html" }
   ]
 }
-```
-
-Click **Commit changes** ✅
-
----
-
-## Step 2 — Deploy on Vercel
-
-1. Go to [vercel.com](https://vercel.com) → **Add New Project**
-2. Import your `job-connect-pro` GitHub repo
-3. Framework auto-detects as **Vite** ✅
-4. Add these **Environment Variables**:
-```
-VITE_SUPABASE_URL = https://placeholder.supabase.co
-VITE_SUPABASE_PUBLISHABLE_KEY = placeholder
-VITE_SUPABASE_PROJECT_ID = placeholder
